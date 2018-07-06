@@ -1,4 +1,9 @@
-*.class
+*.project
+.settings/
+*.classpath
+*.factorypath
+*.springBeans
+*.gitignore
 
 .idea
 *.iml
