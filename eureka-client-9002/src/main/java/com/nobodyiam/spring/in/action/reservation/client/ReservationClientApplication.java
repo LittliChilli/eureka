@@ -11,11 +11,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.web.client.RestTemplate;
 
-@ComponentScan(excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = {ExcudeAnnotation.class})})
 @EnableDiscoveryClient
 @SpringBootApplication
 @Configuration
-@RibbonClient(name="eureka-service", configuration=RibbonConfiguration.class)
 public class ReservationClientApplication {
 	
 	@Bean

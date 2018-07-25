@@ -19,3 +19,15 @@ target
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+eureka-client-9002/.classpath
+eureka-server/.classpath
+eureka-server/.project
+eureka-client-9002/.classpath
+eureka-server/.classpath
+eureka-server/.project
+eureka-server/.settings/org.eclipse.core.resources.prefs
+eureka-server/.settings/org.eclipse.jdt.core.prefs
+eureka-server/.settings/org.eclipse.m2e.core.prefs
+eureka-server/.settings/org.eclipse.wst.common.project.facet.core.xml
+eureka-service-9004/.classpath

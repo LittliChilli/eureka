@@ -14,11 +14,9 @@ import org.springframework.web.client.RestTemplate;
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;
 
-//@ComponentScan(excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = {ExcudeAnnotation.class})})
 @EnableDiscoveryClient
 @SpringBootApplication
 @Configuration
-//@RibbonClient(name="eureka-service", configuration=RibbonConfiguration.class)
 public class ReservationClientApplication {
 	
 	@Bean
